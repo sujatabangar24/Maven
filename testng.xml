@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <listeners>-->
+<!--        <listener class-name="testng.failedscriptexcecution.AutomaticallyReRun"></listener>-->
+<!--    </listeners>-->
+   <!-- <groups>
+        <run>
+            <include name="regression"/>
+            <include name="sanity"/>
+        </run>
+    </groups>-->
+
+   <!-- <parameter name="browserName" value="chrome"/>
+    <parameter name="companyName" value="Infosys"/>
+    <parameter name="locationName" value="Pune"/>-->
+
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="3" name="C:/Users/Sujata/IdeaProjects/Maven">
+        <classes>
+           <!-- <class name="testng.annotations.AnotherExOfBeforeAfter"></class>
+            <class name="testng.annotations.BeforeAfterTestEx"></class>
+            <class name="mavendemo.TestNGEx"/>
+            <class name="testng.annotations.BeforeAfterMethodEx"/>
+            <class name="testng.annotations.DependOnMethodEx"/>
+            <class name="testng.annotations.DependsOnGroupEx"/>
+            <class name="testng.annotations.InvocationCountEx"/>-->
+           <!-- <class name="testng.priority.PriorityEx"/>-->
+            <!--<class name="testng.priority.TestCaseEx"/>
+            <class name="testng.assertion.SoftAssertEx"/>
+            <class name="testng.assertion.HardAssertEx"/>
+            <class name="mavendemo.TestNGEx"/>-->
+            
+            <!--<class name="testng.parameterization.ParameterizationEx"/>
+            <class name="testng.parameterization.ParameterizationBeforeAfterMethod"></class>
+            <class name="testng.parameterization.NormalDataProvider"/>-->
+          <!--  <class name="testng.parameterization.DataProviderWithExcel"/>-->
+           <!-- <class name="testng.priority.PriorityEx"/>-->
+           <!-- <class name="testng.assertion.HardAssertEx"/>
+            <class name="testng.assertion.SoftAssertEx"/>-->
+
+            <class name="testng.parameterization.DataProviderwithExcelHw"/>
+
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-03T02:21:29 IST" name="Surefire suite" finished-at="2024-05-03T02:21:41 IST" duration-ms="12454">
+    <groups>
+    </groups>
+    <test started-at="2024-05-03T02:21:29 IST" name="Surefire test" finished-at="2024-05-03T02:21:41 IST" duration-ms="12454">
+      <class name="mavendemo.TestNGEx">
+        <test-method signature="basicOfTestNG()[pri:0, instance:mavendemo.TestNGEx@78b729e6]" started-at="2024-05-03T02:21:29 IST" name="basicOfTestNG" finished-at="2024-05-03T02:21:33 IST" duration-ms="4496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicOfTestNG -->
+        <test-method signature="basicOfTestNG1()[pri:0, instance:mavendemo.TestNGEx@78b729e6]" started-at="2024-05-03T02:21:33 IST" name="basicOfTestNG1" finished-at="2024-05-03T02:21:41 IST" duration-ms="7898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicOfTestNG1 -->
+      </class> <!-- mavendemo.TestNGEx -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

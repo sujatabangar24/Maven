@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Sujata/IdeaProjects/Maven(failed)">
+    <classes>
+      <class name="testng.priority.PriorityEx">
+        <methods>
+          <include name="priorityMethod_G"/>
+          <include name="priorityMethod_D"/>
+        </methods>
+      </class> <!-- testng.priority.PriorityEx -->
+    </classes>
+  </test> <!-- C:/Users/Sujata/IdeaProjects/Maven(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
