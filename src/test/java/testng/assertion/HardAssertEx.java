@@ -23,8 +23,10 @@ public class HardAssertEx {
         Assert.assertEquals(title, "Sign in - Google Accounts","Sign in - Google Accounts title should be matched");
 
         Assert.assertTrue(userName.isDisplayed(),"username textbox should be displayed");
-
+        System.out.println("Hello...Everyone!");
         driver.close();
+
+   
 
     }
 }
