@@ -26,6 +26,7 @@ public class SoftAssertEx {
 
         sa.assertEquals(title, "Sign in - google Accounts","Sign in - Google Accounts title should be matched");
         sa.assertTrue(userName.isDisplayed(),"username textbox should be displayed");
+        System.out.println("Good Evening....!");
         sa.assertAll(); //prints all assertion logs on console, this should be defined after the assertion
 
         driver.close();
