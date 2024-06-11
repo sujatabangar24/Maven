@@ -24,6 +24,7 @@ public class HardAssertEx {
 
         Assert.assertTrue(userName.isDisplayed(),"username textbox should be displayed");
         System.out.println("Hello...Everyone!");
+        System.out.println("Welcome to the world of Java automation");
         driver.close();
 
    
